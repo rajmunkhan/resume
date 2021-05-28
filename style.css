@@ -399,3 +399,47 @@ a{
 .reachme a{
     color: #03bcf4;
 }
+@media screen and (max-width:1183px) {
+    .container{
+        flex-direction: column;
+    }
+    .left{
+        position: relative;
+        width: 100vw;
+    }
+    .uls{
+        flex-direction: row;
+        margin: 15px 0px;
+    }
+    .uls a{
+        margin: 0px 10px;
+    }
+    .right{
+        width: 100vw;
+    }
+    .card{
+        width: 80vw;
+    }
+    .skill{
+        width: 80vw;
+    }
+    .amount{
+        width:50%
+    }
+    .skill a{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:520px){
+    .uls{
+        justify-content: center;
+        margin: auto;
+        width: 95vw;
+        flex-direction: row;
+    }
+    .uls a{
+        font-size: 10px;
+        margin: 10px 5px;
+    }
+}
